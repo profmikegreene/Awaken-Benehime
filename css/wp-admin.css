@@ -57,5 +57,35 @@ input.button-primary, button.button-primary, a.button-primary{
 	.login #nav, .login #backtoblog{
 		text-shadow: none !important;
 	}
-
-
+#wpadminbar,
+#wpadminbar .ab-top-secondary{
+	background:#0073cf;
+}
+#wpadminbar * {
+	color:#fff;
+}
+#wpadminbar .quicklinks .ab-top-secondary > li,
+#wpadminbar .quicklinks > ul > li {
+	border-left-color:#fff;
+	border-right-color:#fff;
+}
+#wpadminbar .quicklinks .ab-top-secondary > li > a,
+#wpadminbar .quicklinks .ab-top-secondary > li > .ab-empty-item,
+#wpadminbar .quicklinks > ul > li > a,
+#wpadminbar .quicklinks > ul > li > .ab-empty-item {
+	border-left:none;
+	border-right:none;
+}
+#wpadminbar .quicklinks .menupop ul li a,
+#wpadminbar .quicklinks .menupop ul li a strong,
+#wpadminbar .quicklinks .menupop.hover ul li a,
+#wpadminbar.nojs .quicklinks .menupop:hover ul li a,
+a,
+#adminmenu a,
+#the-comment-list p.comment-author strong a,
+#media-upload a.del-link,
+#media-items a.delete,
+.plugins a.delete,
+.ui-tabs-nav a{
+	color:#0073cf;
+}

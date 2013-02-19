@@ -158,11 +158,11 @@ add_theme_support( 'post-thumbnails', array( 'post', 'page' ) );
 		return $slug; 
 	}
 	// custom admin login logo
-	function custom_login_logo() {
+	function custom_admin_css() {
 		echo '<link rel="stylesheet" href="/wp-content/themes/AwakenBenehimeV10/css/wp-admin.css">';
 	}
-	add_action('login_head', 'custom_login_logo');
-	
+	add_action('login_head', 'custom_admin_css');
+	add_action('admin_head', 'custom_admin_css');
 	// add a favicon for your admin
 	function admin_favicon() {
 		echo '<link rel="Shortcut Icon" type="image/x-icon" href="'.get_bloginfo('stylesheet_directory').'/images/favicon.ico" />';
