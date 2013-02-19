@@ -1,0 +1,390 @@
+.globalNav {
+	font-size:11px; 
+	font-weight:300; 
+	position:fixed; 
+	z-index:98; 
+	/*border-bottom:1px solid #555;*/
+	height:30px; 
+	width:100%;
+	color:#333333;
+	padding:0;
+	letter-spacing:1px;
+	top:0;
+	background: #464646; 
+	-webkit-box-shadow: 0 0 5px rgba(0,0,0,.6); 
+	-moz-box-shadow: 0 0 5px rgba(0,0,0,.6); 
+	-ms-box-shadow: 0 0 5px rgba(0,0,0,.6); 
+	-o-box-shadow: 0 0 5px rgba(0,0,0,.6); 
+	box-shadow: 0 0 5px rgba(0,0,0,.6);
+}
+.megaDropButton {
+	width:40px;
+	height:40px;
+	background: #004987 url(/wp-content/themes/AwakenBenehimeV10/images/dropdownIcon.png);
+	position: absolute;
+	bottom: -41px;
+	right: 5px;
+	z-index: 10;
+	border:1px solid #004987;
+	border-top:none;
+	cursor: pointer;
+	display: none;
+}
+.admin-bar .globalNav {top:28px;}
+.globalNav a {
+	text-shadow:none; 
+	color:#fff; 
+	text-decoration: none;
+}
+.globalNav a:hover {
+	color:#fff; 
+	text-decoration:underline; 
+	border-bottom:none;
+}
+
+	.globalNav li {list-style: none;}
+.gNButtons, .nav, .accessibility {position:relative; float:left;}
+
+.gNButtons {
+	height:30px;
+	/*min-width:195px;*/
+	width:20%;
+}
+.gNButtons a {text-decoration: none; position: relative;}
+
+.quickLinks {
+	position: relative;
+	margin:0 0 0 5px; 
+	padding:0;
+	top:6px;  
+}
+.quickLinks a, .quickLinks a:hover, .quickLinks a:visited {color:#fff;}
+.quickLinks a, .quickLinks li {margin:0; padding:0; color:#fff;}
+.quickLinks li {
+	float:left;
+	margin-right:5px;
+	}
+.quickLinks a {padding:5px;}
+.quickLinks a:hover {text-decoration: none;}
+.quickLinks ul {
+	padding: 0;
+}
+.quickLinks ul a {
+	color:#fff;
+	text-align:right; 
+}
+.quickLinks ul li {
+	text-align:right;
+	/*height:15px;*/
+	width:100px;
+}
+.quickLinks .dropdownArrow {
+font-size: .75em;
+}
+.myRCCDropdown {
+	position:absolute;
+	background:#fff;
+	border:5px solid #0073cf;
+	top:25px;
+	display:none;
+	padding:5px;
+	color: #333;
+	z-index: 99;
+	width:150px;
+}
+.myRCCDropdown .button {
+	margin: 5px 0;
+}
+.myRCCDropdown a, .myRCCDropdown a:hover {
+	padding: 5px 0;
+	color:#333;
+}
+.myRCCDropdown p {
+	margin: 5px 0 0;
+	font-size: 11px;
+}
+.loginForm label {
+	line-height: 2.75em;
+}
+.quickLinks .moreLinksDropdown {
+	background: #fff;
+	color:#333;
+	padding:5px;
+	border: 5px solid #F28B37;
+	top:25px;
+	left: 64px;
+	display: none;
+	position: absolute;
+	width:100px;
+	z-index:99;
+	height:auto;
+	text-align:right;
+}
+.moreLinksDropdown ul {
+	margin: 0;
+}
+.quickLinks .moreLinksDropdown a, .quickLinks .moreLinksDropdown a:visited {
+	text-decoration: none;
+	color:#333;
+	display: block;
+}
+.quickLinks .moreLinksDropdown a:hover {
+	text-decoration: none;
+	background: #F28B37;
+	color:#fff;
+
+}
+
+.nav {
+	height:30px;
+	width:60%;
+	/*min-width:780px;*/
+	line-height:30px;
+	z-index:99;
+	/*margin: 0 auto;*/
+}
+.nav h3 {
+	position:relative;
+	display:none;
+	cursor: pointer;
+	color:#fff;
+	width:200px;
+	background:#232323;
+	/*border:1px solid #222;*/
+	padding:3px;
+	margin: 0 auto;
+}
+.nav h3 span {
+	float:right;
+}
+.navBar {
+	position:relative; 
+	top:0; 
+	width:593px; 
+	height:40px;
+	margin:0 auto; 
+	padding:0;
+}
+.navBar ul, .navBar ol {
+	padding:0;
+}
+.navBar li {
+	border:none;
+	position:relative;
+	float:left;
+	display:block;
+	margin:0;
+	padding:0;
+	font-weight:100;
+	text-align:left;
+	width:auto;
+	}
+
+
+.navBar .topLevel:hover, .navBar .topLevel:focus, .globalNav a.active{
+	color:#fff;
+	text-decoration:none;
+	}
+.peopleNav {
+
+}
+.peopleNav ul {
+	margin-bottom:10px; 
+	height:auto;
+}
+.aboutNav {
+
+}
+.academicsNav {
+
+}
+.admissionsNav {
+
+}
+.departmentsNav {
+
+}
+.libraryNav {
+
+}
+.workforceNav {
+
+}
+.peopleNav a.topLevel:hover, .peopleNav a.active {background:#011c33}
+.aboutNav a.topLevel:hover, .aboutNav a.active {background:#25a322}
+.academicsNav a.topLevel:hover, .academicsNav a.active {background:#0073cf}
+.admissionsNav a.topLevel:hover, .admissionsNav a.active {background:#d10073}
+.departmentsNav a.topLevel:hover, .departmentsNav a.active {background:#00b588}
+.libraryNav a.topLevel:hover, .libraryNav a.active{background:#a612d1}
+.workforceNav a.topLevel:hover, .workforceNav a.active {background:#e98505}
+
+.peopleNav .dropDown {border-color:#011c33;}
+.aboutNav .dropDown {border-color: #25a322;}
+.academicsNav .dropDown {border-color: #0073cf;}
+.admissionsNav .dropDown {border-color: #d10073;}
+.departmentsNav .dropDown {border-color: #00b588;}
+.libraryNav .dropDown {border-color: #a612d1;}
+.workforceNav .dropDown {border-color: #e98505;}
+
+.peopleNav .dropDown a:hover {background:#011c33;}
+.aboutNav .dropDown a:hover {background:#25a322}
+.academicsNav .dropDown a:hover {background:#0073cf;}
+.admissionsNav .dropDown a:hover {background:#d10073;}
+.departmentsNav .dropDown a:hover {background:#00b588;}
+.libraryNav .dropDown a:hover {background:#a612d1;}
+.workforceNav .dropDown a:hover {background:#e98505;}
+
+.navElement {
+	width:auto; 
+	left:auto;
+}
+.navElement .dropdownArrow {
+	font-size: .4em;
+	position:absolute;
+	left:38%;
+	bottom:-15px;
+}
+.globalNav .topLevel {
+	z-index:100; 
+	position:relative;
+	display:block;
+	text-align:left;
+	line-height:inherit;
+	float:left;
+	padding-right:5px;
+	text-decoration:none;
+	color: #fff;
+	font-size:1.4em;
+}
+.globalNav .topLevel:hover {/*text-shadow: 2px 2px 0 rgba(0,0,0,0.2);*/}
+.navElement .dropDown {
+	position:absolute;
+	z-index:99;
+	display:none;
+	top:30px;
+	left:-3px;
+	width: 780px;
+	padding-left:5px;
+	background: #fff;
+	border-width:5px;
+	border-style: solid;
+	letter-spacing: 0;
+}
+.navElement .dropDown ul {
+	width: 190px;
+	display: block;
+	position: relative;
+	float: left;
+	margin-right:5px;
+}
+.navElement .dropDown li, .navElement .dropDown li a{
+	float:none;
+	display:block;
+}
+.navElement .dropDown li {
+	padding-right:5px;
+}
+
+.navElement .dropDown a {
+	text-transform:none;
+	font-weight: 300;
+	color:#222;
+	line-height:1.5em;
+	font-size:1.25em;
+	display: block;
+	width: 185px;
+
+	padding:5px;
+}
+.navElement .dropDown a:hover {
+	text-decoration:none;
+	color:#fff;
+}
+.navElement .active {
+	background:inherit;
+	box-shadow:none;
+	-webkit-box-shadow:none;
+	-moz-box-shadow:none;
+	-o-box-shadow:none;
+	color:#fff;
+
+}
+.peopleNav .dropDown {width:200px;}
+.aboutNav .dropDown {left:-178px;}
+.academicsNav .dropDown {left:-237px;}
+.admissionsNav .dropDown {left:-334px;}
+.departmentsNav .dropDown{left:-433px;}
+.libraryNav .dropDown {left:-3px; width: 240px;}
+.workforceNav .dropDown {left:-611px;}
+.accessibility {
+	height:40px;
+	margin:0;
+	width:20%; 
+	float:right;
+	 
+}
+.accessibility form {
+	position: relative;
+	height:auto;
+	margin-top:3px;
+	float:right;
+}
+.accessibility ul {
+	height:20px; 
+	
+}
+.siteSearch {
+	margin-right:5px;
+}
+#cse-search-box div {
+	position:relative;
+	float: left;
+	
+}
+#searchInput {
+	
+}
+#cse-search-box .search {
+	padding:5px;
+	color:#3a3a3a;
+	background:#efefef;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border: solid 1px #E5E5E5;
+	outline: 0;
+	
+	background: #FFFFFF;
+	background: -webkit-gradient(linear, left top, left 25, from(#FFFFFF), color-stop(4%, #EEEEEE), to(#FFFFFF));
+	background: -moz-linear-gradient(top, #FFFFFF, #EEEEEE 1px, #FFFFFF 25px);
+	box-shadow: rgba(0,0,0, 0.1) 0 0 8px;
+	-moz-box-shadow: rgba(0,0,0, 0.1) 0 0 8px;
+	-webkit-box-shadow: rgba(0,0,0, 0.1) 0 0 8px;
+}
+#cse-search-box #searchSubmit {
+	padding:0;
+	margin: 0;
+	background:none;
+	border:none;
+	width:100%;
+}
+
+.searchButton {
+	width:30px;
+	
+	cursor:pointer;
+}
+#qlabel {display:none;}
+.searchIcon {
+	background: url('/wp-content/themes/AwakenBenehimeV10/images/search-icon.png') no-repeat;
+	right:12px;
+	top:4px;
+	position: absolute;
+	width:16px;
+	height:16px;
+	display:block;
+	z-index:9;
+}
+
+
+

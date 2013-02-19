@@ -1,0 +1,227 @@
+/* ==================================================================
+*
+*   Standard page styles
+*
+* -----------------------------------------------------------------*/
+.mainContainer {
+	padding-top: 100px;
+}
+.page-template-page-v3-php .mainContainer {
+  padding-top: 0;
+}
+.siteInfo {
+  margin: 0 auto;
+  background:#0073cf;
+  padding-top: 30px;
+  height:320px;
+
+}
+.siteInfo .wp-post-image {
+  margin: 0 auto;
+  display: block;
+}
+.siteInfo .container {
+  position: absolute;
+  top:100px;
+  left:50%;
+}
+.siteInfo .container div {
+  position: relative;
+  left: -50%;
+}
+.siteInfo .entry-title, .site-description {
+  color:#fff;
+  margin: 0;
+}
+.site-description {
+  font-size: 1.5em;
+}
+.pageHeader {
+	position: relative;
+}
+.page .logo {
+position: absolute;
+top: 10px;
+left: 10px;
+z-index: 9;
+}
+.page_v2 .logo {
+  left:20px;
+}
+.page-template-page-v3-php .logo {
+  position: relative;
+  top:20px;
+  left: 0;
+}
+.pageContent, .pageSidebar {
+	background:#fff;
+	position: relative;
+	
+}
+.pageContent {
+	/*top:-75px;*/
+}
+.pageContent article {
+	margin: 0 10px;
+}
+.entry-title {
+	font: 400 3em/2em 'Arvo', Helvietica Neue, Arial, sans-serif;
+	margin: 0;
+}
+
+.pageHead {
+	font: 400 1.5em/1.5em 'Arvo', Helvietica Neue, Arial, sans-serif;
+}
+.entry-content h1,
+.entry-content h2,
+.entry-content h3,
+.entry-content h4,
+.entry-content h5,
+.entry-content h6 {
+  margin:1.4em 0 0;
+}
+.entry-content h5,
+.entry-content h6 {
+  font-family: "Segoe UI Light","helvetica neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+}
+.entry-content p {
+  margin-top:0;
+}
+
+/* ==================================================================
+*
+*   Breadcrumbs
+*
+* -----------------------------------------------------------------*/
+.breadcrumbs{
+  overflow: hidden;
+  width: 690px;
+  margin: 0 0 0 10px;
+  padding-left: 10px;
+  list-style: none;
+  position: absolute;
+  bottom:0px;
+  background:#fff;
+  background: rgba(255,255,255,0.5);
+}
+
+.breadcrumbs li{
+  float: left;
+  margin: 0;
+  height:40px;
+}
+
+.breadcrumbs a, .breadcrumbs span{
+  margin:5px;
+  float: left;
+  height:30px;
+  line-height: 30px;
+  text-decoration: none;
+  color: #444;
+  position: relative;
+  padding:0 3px;
+}
+.breadcrumbs span {
+	margin-left: 0px;
+  padding:0;
+}
+.breadcrumbs a:hover{
+  background: #00b588;
+  color: #fff;
+}
+.breadcrumbs a.current:hover {
+	background: none;
+	color:#444;
+}
+
+/* ==================================================================
+*
+*   sidebar
+*
+* -----------------------------------------------------------------*/
+.pageSidebar {
+	top:20px;
+  background:none;
+}
+.page_v2 .pageSidebar {
+  top:0;
+}
+.pageSidebar .widget {
+  background: #fff;
+  padding:0;
+  margin: 0 0 20px;
+}
+
+.pageSidebar .widget div {
+  padding: 5px;
+}
+.pageSidebar .promo {
+  background:#e98505;
+  color:#fff;
+}
+.pageSidebar .promo a {
+  color:#fff;
+  text-decoration: none;
+  border-bottom: 1px solid #fff;
+}
+
+.pageSidebar .promo h3 {
+  background:#975502;
+  color:#fff;
+}
+
+
+.pageSidebar .apply .menu a:hover {
+  color:#0073cf;
+}
+.pageSidebar .sidebarMenu {
+  padding:0;
+}
+.pageSidebar h3 {
+  background:#bfdcf3;
+  color:#0073cf;
+  padding-left: 5px;
+  margin: 0;
+}
+
+.pageSidebar .menu, .pageSidebar .sub-menu {
+  margin: 0;
+  padding:0;
+}
+.pageSidebar .menu li {
+  list-style: none;
+  padding:0;
+  margin: 0;
+}
+
+.pageSidebar .menu a {
+  display: block;
+  padding:5px;
+  text-decoration: none;
+  border-bottom:1px solid #e5f1fa;
+}
+.pageSidebar .widget a:hover {
+  background:#f9f9f9;
+  color:#0073cf;
+  text-decoration: none;
+  border-color:#68ade7;
+}
+.pageSidebar .promo a:hover {
+  border-bottom:1px dashed #fff;
+  background:none;
+}
+.pageSidebar .sub-menu a{
+  padding-left:10px;
+}
+.pageSidebar .sub-menu .sub-menu a  {
+  padding-left: 20px;
+}
+/* ==================================================================
+*
+*   Page_V2
+*
+* -----------------------------------------------------------------*/
+.page_v2 {
+  padding-top:117px;
+}

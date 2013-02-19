@@ -1,0 +1,322 @@
+/* ==================================================================
+*
+*   General Cubes and Layout
+*
+* -----------------------------------------------------------------*/
+.rccHome .mainContainer {
+	padding-top: 0;
+	background: none;
+}
+.rccHome .entry {
+	margin: 0 auto;
+}
+.cube {
+	position: relative;
+	float: left;
+	color:#fff;
+	margin-top:10px;
+	margin-bottom:10px;
+	overflow: hidden;
+	height:180px;
+	cursor:pointer;
+	font-size:1.5em;
+	font-weight: 100;
+}
+.cube:hover {
+	-webkit-box-shadow: 0px 1px 5px 0px #4a4a4a;
+  -moz-box-shadow: 0px 1px 5px 0px #4a4a4a;
+  box-shadow: 0px 1px 5px 0px #4a4a4a;
+}
+.cube img {
+	position:absolute;
+	z-index:0;
+  cursor: pointer;
+	}
+.cube a {
+	text-decoration:none;
+}
+.cube a.active {
+	background: rgba(0, 0, 0, 0.5);
+}
+.cube a, .cube a:visited, .cube a:active, .cube a:hover {
+	color:#fff;
+	line-height:1.2em;
+}
+.cube p, .cube h1, .cube h2, .cube h3, .cube h4 {
+	position: relative;
+	margin:5px;
+	font-weight:100;
+	line-height:1em;
+	color:#fff;
+	}
+.cube p {font-size: 1em;}
+.cube ul {
+	margin:5px 0;
+	padding:0 0 0 20px;
+}
+.bodyCopy {
+	font-size: 1.25em;
+}
+.bodyCopy, .bodyCopy li, .bodyCopy p {
+	font-weight: 300;
+}
+.bodyCopy a {
+	text-decoration: none;
+	border-bottom:1px solid #fff;
+}
+.bodyCopy a {
+	color:#fff;
+}
+.bodyCopy a:visited {
+	color:#eee;
+}
+.bodyCopy a:hover {
+	text-decoration: none;
+	border-bottom:1px dashed #fff;
+}
+/* ==================================================================
+*
+*   whyRCC
+*
+* -----------------------------------------------------------------*/
+.whyRCC {
+	position: relative;
+	width:100%;
+	padding-top:50px;
+	overflow: hidden;
+	
+}
+.hugeContent {
+	height: 180px;
+	margin:0 10px;
+}
+
+.banner {
+	text-align: center;
+	/*font-size: 9em;*/
+	line-height: 240px;
+	height: 240px;
+	margin: 0;
+	color:#0073cf;
+	text-shadow: 2px 2px 1px #fff, 3px 3px 0 #0073cf;
+}
+.whyRCC .grid-6 {
+	height:132px;
+}
+ .cube .futureCta, 
+ .cube .currentCta, 
+ .cube .currentCta2 {
+	font-family:'Arvo', Helvietica Neue, Arial, sans-serif;
+	text-align: center;
+	font-weight: 700;
+	margin:0;
+	text-shadow: 2px 2px 1px #0073cf, 3px 3px 0 #fff;
+	cursor: pointer;
+	/*background: #005ca6;*/
+	background: #0073cf;
+	height:130px;
+	line-height: 1.2em;
+	border: 1px solid #005ca6; /*#00569b*/
+}
+.whyRCC .cube:hover, .whyRCC .cube:hover {
+	-webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+
+}
+.futureCta:hover, .currentCta:hover {
+	 text-shadow: 2px 2px 1px #00b588, 3px 3px 0px #fff;
+	 background:#00569b;
+		border-color: #005090;
+}
+.whyRCC img {
+	cursor: default;
+	filter: alpha(opacity=100); /* internet explorer */
+  -moz-opacity: 1;       /* mozilla, netscape */
+  opacity: 1;
+}
+
+
+/* ==================================================================
+*
+*   Slider
+*
+* -----------------------------------------------------------------*/
+.slider-wrapper, .bodyCopy {cursor:auto;}
+
+.rccHome .wrapper {
+	position: relative;
+}
+.rccHome .wrapper  {
+	height: auto;
+}
+.rccHome .wrapper .cube {
+	height:370px;
+}
+.rccHome .slider-wrapper {
+	
+	margin: 0;
+}
+.rccHome .nivoSlider img {
+	height: 370px;
+}
+.nivo-caption {
+	width: 940px;
+}
+
+/* ==================================================================
+*
+*   Events, Updates, and CTA's
+*
+* -----------------------------------------------------------------*/
+.rccHome .mainContainer {
+	
+}
+.activeDataEmbed, .importantLinks {
+	height:380px;
+}
+.cta {
+	margin-bottom:1em;
+}
+.cta h3, .cta p {
+	top:0;
+	margin:5px;
+}
+.cta h3 {
+	margin-bottom:5px;
+}
+.cta span {
+	font-size: .85em;
+}
+.cube .logo {
+	position: absolute;
+	top:10px;
+	left:10px;
+	z-index:9;
+}
+
+#activeDataEmbed {
+	background: #0073cf;
+}
+.activeDataEmbed li,  .importantLinks li  {
+	list-style: none;
+}
+.activeDataEmbed ul,  .rccHome .importantLinksContent {
+	padding: 0 5px;
+}
+.activeDataContent {
+	margin-left:5px;
+}
+.importantLinks span {
+	display: block;
+}
+
+/* ==================================================================
+*
+*   Rappenings
+*
+* -----------------------------------------------------------------*/
+.rappenings {
+	text-align: right;
+	margin: 10px;
+}
+.rappenings h3 {
+	text-transform: uppercase;
+	font-size: 2.5em;
+	line-height: 1em;
+	margin: 0;
+}
+.rappenings p {
+	margin: 0;
+}
+.fRapp p {
+	position:absolute;
+	background:#000;
+	background:rgba(0, 0, 0, 0.5);
+	margin:0;
+	bottom:0;
+	font-size:1em;
+}	
+
+
+
+
+/* ==================================================================
+*
+*   Contact and Social
+*
+* -----------------------------------------------------------------*/
+.contactCube {
+	height:320px;
+}
+
+.socialCube {
+	height:150px;
+}
+
+.cube .contactInfo {
+	position: relative;
+	float:left;
+	width:220px;
+	margin:5px 5px 2em;
+	padding:0;
+}
+.cube .contactInfo li {
+	list-style:none;
+}
+
+.cube13 {
+	background:#0073cf url('/wp-content/themes/AwakenBenehimeV9/images/socialicons.png') 0px 0px no-repeat; 
+}
+.cube13:hover{
+	background-color:#3b5998;
+	background-position-y:-150px;
+}
+.cube14 {
+	background:#0073cf url('/wp-content/themes/AwakenBenehimeV9/images/socialicons.png') -150px 0px no-repeat;
+}
+.cube14:hover {
+	background-color:#33ccff;
+	background-position-y:-150px;
+}
+.cube15 {
+	background:#0073cf url('/wp-content/themes/AwakenBenehimeV9/images/socialicons.png') -300px 0px no-repeat;
+}
+.cube15:hover {
+	background-color: #c1302a;
+	background-position-y:-150px;
+}
+.cube16 {
+	background:#0073cf url('/wp-content/themes/AwakenBenehimeV9/images/socialicons.png') -450px 0px no-repeat;
+}
+.cube16:hover {
+	background-color: #ed812f;
+	background-position-y:-150px;
+}
+.cube17 {
+	background:#0073cf url('/wp-content/themes/AwakenBenehimeV9/images/socialicons.png') -600px 0px no-repeat;
+}
+.cube17:hover {
+	background-color:#333;
+	background-position-y:-150px;
+}
+.cube18 {
+	background:#0073cf url('/wp-content/themes/AwakenBenehimeV9/images/socialicons.png') -750px 0px no-repeat;
+}
+.cube18:hover {
+	background-color: #29bb4e;
+	background-position-y:-150px;
+}
+
+/* ==================================================================
+*
+*   Footer
+*
+* -----------------------------------------------------------------*/
+
+.rccHome .footer {
+	bottom:-75px;
+}
+.rccHome .name {
+	font-family: 'Arvo', Helvietica Neue, Arial, sans-serif;
+}

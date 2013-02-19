@@ -1,0 +1,9 @@
+#Full build with image compression
+#
+cd ~/dropbox/dev/svn/trunk/www.wp.dev/wp-content/themes/awakenbenehimev10/build
+
+rm -R ~/Dropbox/Dev/svn/trunk/www.wp.dev/wp-content/themes/AwakenBenehimeV10/publish; ant build; rm -R ~/Dropbox/Dev/svn/trunk/www.wp.build/wp-content/themes/AwakenBenehimeV10; cp -R ~/Dropbox/Dev/svn/trunk/www.wp.dev/wp-content/themes/AwakenBenehimeV10/publish ~/Dropbox/Dev/svn/trunk/www.wp.build/wp-content/themes/AwakenBenehimeV10
+
+#Text only build, no image compression
+#
+rm -R ~/Dropbox/Dev/svn/trunk/www.wp.dev/wp-content/themes/AwakenBenehimeV10/publish; ant text; rm -R ~/Dropbox/Dev/svn/trunk/www.wp.build/wp-content/themes/AwakenBenehimeV10; cp -R ~/Dropbox/Dev/svn/trunk/www.wp.dev/wp-content/themes/AwakenBenehimeV10/publish ~/Dropbox/Dev/svn/trunk/www.wp.build/wp-content/themes/AwakenBenehimeV10

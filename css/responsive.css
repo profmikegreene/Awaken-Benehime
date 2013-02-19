@@ -1,0 +1,366 @@
+/* ==================================================================
+*
+*   Breakpoints for Responsive Design
+*  	Large Desktop:	1300px+
+*		Small Desktop:	1024-1300px
+*		Tablet:					720px-1024px
+*   Mobile:         <720px
+*
+* -----------------------------------------------------------------*/
+
+@media only screen and (min-width: 1024px) and (max-width: 1299px) {
+  /* Style adjustments for viewports 1024-1299px go here */
+
+}
+@media only screen and (max-width: 1023px) {
+  
+  .container {
+    top:0;
+  }
+
+  .responsiveDropdownMenu {
+    position: relative;
+    height: 50px;
+    width:212px;
+    margin: 0 auto;
+    display: none;
+  }
+
+  .navBar {
+    position: absolute;
+    display: none;
+    width:212px;
+    background:#252525;
+    /*top:45px;*/
+    left: 0px;
+    height:420px;
+    overflow: scroll;
+  }
+  .nav h3 {
+    display:block;
+    /*top:0px;*/
+  }
+  .navBar .navElement, .navBar .topLevel {
+    float:none;
+    width:100%;
+  }
+  .navBar .topLevel {
+    padding-left:10px;
+    height:40px;
+  }
+  .navBar .dropDown {
+    width:200px;
+    z-index:999;
+    position: inherit;
+    top:auto;
+    left:auto;
+  }
+  .navElement .dropDown ul {
+    margin: 0;
+    width:100%;
+    float: none;
+    position:inherit;
+  }
+
+  /* ==================================================================
+  *
+  *   Theme Sytles
+  *
+  * -----------------------------------------------------------------*/
+  
+  .cube {
+    font-size: 1.25em;
+  }
+  .footer ul {
+    width: 90%;
+  }
+  .cube13 {
+    background-position-x: -40px;
+  }
+  .cube14 {
+    background-position-x: -190px;
+  }
+  .cube15 {
+    background-position-x: -340px;
+  }
+  .cube16 {
+    background-position-x: -490px;
+  }
+  .cube17 {
+    background-position-x: -640px;
+  }
+  .cube18 {
+    background-position-x: -790px;
+  }
+}
+@media only screen and (min-width: 720px) and (max-width: 1023px) {
+  /* Style adjustments for viewports 768-1023px go here */
+  .gNButtons {
+    width:33%;
+  }
+  .nav {
+    width:33%;
+  }
+  .accessibility {
+    width:33%;
+  }
+
+  /* Containers
+  ----------------------------------------------------------------------------------------------------*/
+  .container {
+      width: 720px;
+  }
+
+  /* `Grid >> 12 Columns
+  ----------------------------------------------------------------------------------------------------*/
+   
+  .container .grid-1 {
+    width: 40px;
+  }
+   
+  .container .grid-2 {
+    width: 100px;
+  }
+  .container .grid-25 {
+    width:130px;
+  }
+  .container .grid-3 {
+    width: 160px;
+  }
+   
+  .container .grid-4 {
+    width: 220px;
+  }
+   
+  .container .grid-5 {
+    width: 280px;
+  }
+   
+  .container .grid-6 {
+    width: 340px;
+  }
+   
+  .container .grid-7 {
+    width: 400px;
+  }
+   
+  .container .grid-8 {
+    width: 460px;
+  }
+   
+  .container .grid-9 {
+    width: 520px;
+  }
+   
+  .container .grid-10 {
+    width: 580px;
+  }
+   
+  .container .grid-11 {
+    width: 640px;
+  }
+   
+  .container .grid-12 {
+    width: 700px;
+  }
+  .blueBackground {
+    height:460px;
+  }
+  .hugeContent {
+    height: 120px;
+  }
+  .futureCta, .currentCta, .currentCta2 {
+    padding-top:10%;
+  }
+  .banner {
+    /*font-size: 6.5em;*/
+    height:150px;
+    line-height: 150px;
+  }
+  .rccHome .wrapper .cube {
+    height:276px;
+  }
+ .rccHome .nivoSlider img {
+    height:276px;
+  }
+  .nivo-caption {
+    width: 700px;
+  }
+  .rccHome .contactCube {
+    width: 700px;
+    height:200px;
+  }
+  .rccHome .activeDataEmbed, .rccHome .importantLinks {
+    width:340px;
+  }
+  .rccHome .grid-25  {
+    width:160px;
+  }
+  .cube .contactInfo {
+    height:160px;
+    width:155px;
+    margin: 10px;
+  }
+  .rappenings h3 {
+    font-size: 1.85em;
+  }
+  
+}
+@media only screen and (max-width: 719px) {
+  body {
+    background-position-y: 0;
+  }
+  .globalNav {
+    /*position:relative;*/
+    height:116px;
+  }
+ .megaDropButton {
+    display: block;
+  }
+  .accessibility, .gNButtons, .nav {
+    width: 100%;
+    float: none;
+    margin: 0 auto;
+    position: absolute;
+    height:30px;
+  }
+  .gNButtons {
+    top:64px;
+  }
+  .nav {
+    top:28px;
+  }
+  .quickLinks {
+    width:320px;
+    margin: 0 auto;
+  }
+  .quickLinks li, .quickLinks li a {
+    width:33%;
+    display: block;
+    margin: 0 auto;
+  }
+  .quickLinks li a {
+    width:90%;
+    padding:0;
+    line-height: 25px;
+    text-align: center;
+    height: 25px;
+  }
+  .quickLinks .moreLinksDropdown {
+    right:25px;
+    left:auto;
+  }
+  .accessibility {
+    padding:0;
+    top:0;
+  }
+  .accessibility form {
+    margin: 3px 0 0;
+  }
+  .siteSearch {
+    width:300px;
+    margin: 0 auto;
+    height:30px;
+  }
+  .searchInput {
+    width:90%;
+    margin-left:1.5%;
+  }
+  .searchInput input {
+    margin: 0;
+    width: 95%;
+  }
+  .searchButton {
+    margin-left:0;
+    width:3%;
+  }
+  .searchIcon {
+    right:5%;
+  }
+  .responsiveDropdownMenu, .navBar, .nav h3  {
+    width:95%;
+  }
+  .nav h3 {
+    top:6px;
+  }
+  .quickLinks, .siteSearch, .accessibility form {
+    width: 100%;
+  }
+  .container .grid-1,
+  .container .grid-2,
+  .container .grid-25,
+  .container .grid-3,
+  .container .grid-4,
+  .container .grid-5,
+  .container .grid-6,
+  .container .grid-7,
+  .container .grid-8,
+  .container .grid-9,
+  .container .grid-10,
+  .container .grid-11,
+  .container .grid-12,
+  .whyRCC .container,
+  .rccHome .wrapper,
+  .mainContainer,
+  .nivo-caption,
+  .footer,
+  .footer ul,
+  .footer li {
+    width: 98%;
+    margin-left:1%;
+    margin-right:1%
+  }
+  .container .grid-25, .container .grid-3 {
+    width:48%;
+  }
+  .mainContainer {
+    overflow-x:hidden;
+  }
+  .blueBackground {
+    height:360px;
+  }
+  .container .activeDataEmbed {
+    width: 98%;
+  }
+  .whyRCC {
+    top:-0;
+    height:100%;
+    padding-top:0;
+  }
+  .banner, .hugeContent{
+    height:100px;
+    line-height: 100px;
+  } 
+  .cube .currentCta, .cube .currentCta2, .cube .futureCta, .whyRCC .grid-6 {
+    line-height: auto;
+    height: auto;
+  }
+  .slider-wrapper .logo {
+    width:25%;
+  }
+  .nivo-caption h1{
+    font-size: 1.25em;
+    font-weight: 400;
+  }
+  .rccHome .wrapper, .rccHome .mainContainer {
+    top:0;
+  }
+  .rccHome .nivoSlider img, 
+  .rccHome .wrapper .cube, 
+  .activeDataEmbed, 
+  .importantLinks {
+    height: auto;
+  }
+  .cube .contactInfo {
+    width:45%;
+  }
+  .container .socialCube {
+    width:100px;
+  }
+  .footer {
+    height:125px;
+  }
+}
+@media only screen and (max-width: 1023px) {
+  
+}
