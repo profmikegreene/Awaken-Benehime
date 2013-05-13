@@ -68,7 +68,7 @@ input.button-primary, button.button-primary, a.button-primary{
 #wpadminbar .quicklinks .ab-top-secondary > li,
 #wpadminbar .quicklinks > ul > li {
 	
-	border-color:#3a98e7;
+	border-color:#5fa4db;
 }
 #wpadminbar .quicklinks .ab-top-secondary > li > a,
 #wpadminbar .quicklinks .ab-top-secondary > li > .ab-empty-item,
@@ -76,7 +76,7 @@ input.button-primary, button.button-primary, a.button-primary{
 #wpadminbar .quicklinks > ul > li > .ab-empty-item {
 	/*border-left:none;
 	border-right:none;*/
-	border-color:#27669b;
+	border-color:#00457c;
 }
 #wpadminbar .quicklinks .menupop ul li a,
 #wpadminbar .quicklinks .menupop ul li a strong,

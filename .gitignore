@@ -36,6 +36,7 @@ intermediate
 publish
 .idea
 psd
+build
 
 # build script local files
 build/buildinfo.properties

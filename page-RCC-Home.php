@@ -4,15 +4,6 @@
 		<!-- <div class="grid-12 hugeContent">
 			<h1 class="banner">Degrees with value</h1>
 		</div> -->
-		<div class="cube grid-6  " id="futureCta">
-			<h1 class="futureCta"><a href="#">Your future starts here</a></h1>
-		</div>
-		<div class="cube grid-6  " id="currentCta">
-			<h1 class="currentCta"><a href="#">Fall 2012 Schedule</a></h1>
-		</div>
-		<!-- <div class="cube cube15w blueCube" id="currentCta2">
-			<h2><a href="#">Fall 2012 Course List</a></h2>
-		</div> -->
 	</div>
 </div>
 
@@ -54,13 +45,21 @@
 
 	<div class="entry">
 		<?php the_content(); ?>
-
+<div class="cube grid-6  " id="futureCta">
+			<h1 class="futureCta"><a href="#">Your future starts here</a></h1>
+		</div>
+		<div class="cube grid-6  " id="currentCta">
+			<h1 class="currentCta"><a href="#">Fall 2012 Schedule</a></h1>
+		</div>
+		<!-- <div class="cube cube15w blueCube" id="currentCta2">
+			<h2><a href="#">Fall 2012 Course List</a></h2>
+		</div> -->
 		<div class="cube grid-3 bodyCopy activeDataEmbed" id="activeDataEmbed">
 			<h3>Current Events</h3>
 
 			<div id="adx090579" class="activeDataContent">Loading Events...</div>
 		</div>
-		<div class="cube grid-4 brightgreen bodyCopy importantLinks" id="importantLinks">
+		<div class="cube grid-4 green bodyCopy importantLinks" id="importantLinks">
 			<h3>Updates and Announcements</h3>
 			<ul class="importantLinksContent">
 				<li class="cta">
@@ -88,10 +87,10 @@
 		<div class="cube grid-25 orange" id="applyToday">
 			<h3>Apply to RCC Today</h3>
 		</div>
-		<div class="cube grid-25 darkblue" id="fProgram">
+		<div class="cube grid-25 pink" id="fProgram">
 			<h3>General Engineering Technology Degree</h3>
 		</div>
-		<div class="cube grid-25 purple" id="fProgram2">
+		<div class="cube grid-25 brightgreen" id="fProgram2">
 			<h3>Psychology & Social Work Degree</h3>
 		</div>
 		<div class="grid-3 rappenings">

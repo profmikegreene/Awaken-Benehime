@@ -1,48 +1,79 @@
 /* ==|== primary styles =====================================================
    Author: Michael Greene
    ========================================================================== */
-/*******Color Scheme*********
-//	Darkest Blue:		#011c33
-//	Darker Blue :		#004987
-//	Dark Blue   :		#27669b
-//	RCC Blue    :		#0073cf
-//	Light Blue  :		#3a98e7
-//	Lighter Blue:		#68ade7
-//	Dark Grey   :		#333333
-//	Medium Grey :		#6e6e6e
-//	Light Grey  :		#eeeeee
-//	Purple      :		#a612d1
-//	Orange      :		#e98505
-//	Cream       :		#f2f2da
-//	Dark Cream  :		#b7b17b
-//	RCC Green   :		#00b588
-//	Bright Green:		#25a322
-//	Pink				:		#d10073
-//	Dull Orange	:		#f28b37
+/* ==================================================================
+*
+*   New Color Scheme
+*   RCC Blue   : 0073cf
+*   RCC Green  : 00b588
+*
+*   10% Blue   : d6e1eb
+*   30% Blue   : a6c9e5
+*   60% Blue   : 5fa4db
+*   130% Blue  : 00457c
+*   160% Blue  : 00233f
+*   190% Blue  : 000c15    //Use instead of black
+*
+* 	Dark Grey  : 333333
+* 	Medium Grey: 575757
+*
+* 	Purple     : a612d1
+* 	Orange     : cf5c00
+* 	Pink       : cf0073
+* 	Green      : 73cf00
+*
+* -----------------------------------------------------------------*/
+
+
+
+
+
+
+/*******OLD Color Scheme*********
+//	Darkest Blue    :		#000c15
+//	Darker Blue     :		#00233f
+//	Dark Blue       :		#00457c
+//	RCC Blue        :		#0073cf
+//	Light Blue      :		#5fa4db
+//	Lighter Blue    :		#a6c9e5
+//	Dark Grey       :		#333333
+//	Medium Grey     :		#575757
+//	Light Grey      :		#eeeeee
+//	Old Purple      :		#a612d1
+//  New Purple      :   #cd0073
+//	Orange          :		#cf5c00
+//	Cream           :		#f2f2da
+//	Dark Cream      :		#b7b17b
+//	RCC Green       :		#00b588
+//	OldBright Green :		#73cf00
+//  New Bright Green:   #73ce00
+//	Pink            :		#cf0073
+//	Dull Orange     :		#cf5c00
 /****************************/
-html {	
-	 background:#f5f5f5  url('/wp-content/themes/AwakenBenehimeV10/images/body_bg_diag.png') repeat fixed; 
+
+html {
+	 background:#fff;
 }
 
 body {
-/*	background: url('/wp-content/themes/AwakenBenehimeV10/images/gradientBkg.jpg') 0 40px fixed repeat-x;*/	height:100%; 
+	background: url('/wp-content/themes/AwakenBenehimeV10/images/gradientBkg2.jpg') 0 -20px fixed repeat-x;	height:100%;
 	width:100%;
-	font-family:"Segoe UI Light", "Segoe UI", "helvetica neue", Helvetica, Arial, sans-serif;
+	font-family:'Open Sans', "Segoe UI Light", "Segoe UI", "helvetica neue", Helvetica, Arial, sans-serif;
 	font-size: 12px;
 	line-height:18px;
 	font-weight:300;
 }
 a {color: #0073cf; text-decoration:none;}
 a:hover, a:active, a:visited:hover {color:#00b588; border-bottom:1px dashed #00b588;}
-a:visited { color:#004987; text-decoration:none;}
+a:visited { color:#00233f; text-decoration:none;}
 hr {width:100%; padding:10px;border:none; clear:both;}
 table {width: 100%; margin: 10px 0;}
 sup {vertical-align:super; font-size:.75em;}
 
-h1, h2, h3, h4, h5, h6 { 
-	color:#454545; 
+h1, h2, h3, h4, h5, h6 {
+	color:#454545;
 	font-weight: 700;
-	font-family:'Arvo', Helvietica Neue, Arial, sans-serif;
+	font-family:'Habibi', 'Arvo', 'Helvietica Neue', Arial, sans-serif;
 }
 h1 {
 	font-size: 2.5em;
@@ -67,149 +98,66 @@ p {
 }
 
 
-.button { 
-	font-size:1em; 
+.button {
+	font-size:1em;
 	font-weight: 400;
-	color:#ffffff; 
-	padding:5px; 
+	color:#ffffff;
+	padding:5px;
 	line-height:1em;
-	-moz-border-radius: 3px;  
-	-webkit-border-radius: 3px;  
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
 	border-radius: 3px;
-	text-shadow: 0 1px rgba(0, 0, 0, 0.1);   
+	text-shadow: 0 1px rgba(0, 0, 0, 0.1);
 	border-radius: none;
-	box-shadow:none; 
+	box-shadow:none;
 	text-decoration: none;
 	margin:0 0 0 5px;
 }
 .blue.button {
 	border: 1px solid #2F5BB7;
 	background-color: #357AE8;
-	background-image: -webkit-gradient(linear,left top,left bottom,from(#4d90fe),to(#357ae8));
-	background-image: -webkit-linear-gradient(top,#4d90fe,#357ae8);
-	background-image: -moz-linear-gradient(top,#4d90fe,#357ae8);
-	background-image: -ms-linear-gradient(top,#4d90fe,#357ae8);
-	background-image: -o-linear-gradient(top,#4d90fe,#357ae8);
-	background-image: linear-gradient(top,#4d90fe,#357ae8);
 }
 :hover.blue.button{
 	background-color: #0073cf;
-	background-image: -webkit-gradient(linear,left top,left bottom,from(#4d90fe),to(#0073cf));
-	background-image: -webkit-linear-gradient(top,#4d90fe,#0073cf);
-	background-image: -moz-linear-gradient(top,#4d90fe,#0073cf);
-	background-image: -ms-linear-gradient(top,#4d90fe,#0073cf);
-	background-image: -o-linear-gradient(top,#4d90fe,#0073cf);
-	background-image: linear-gradient(top,#4d90fe,#0073cf);
 }
 .orange.button{
-	border:1px solid #a05720; 
-	background:#f28b37;
-	background-image: -webkit-gradient(linear,left top,left bottom,from(#fe953e),to(#f28b37));
-	background-image: -webkit-linear-gradient(top,#fe953e,#f28b37);
-	background-image: -moz-linear-gradient(top,#fe953e,#f28b37);
-	background-image: -ms-linear-gradient(top,#fe953e,#f28b37);
-	background-image: -o-linear-gradient(top,#fe953e,#f28b37);
-	background-image: linear-gradient(top,#fe953e,#f28b37); 
+	border:1px solid #a05720;
+	background:#cf5c00;
 }
 :hover.orange.button {
 	background:#d9772d;
-	background-image: -webkit-gradient(linear,left top,left bottom,from(#fe953e),to(#d9772d));
-	background-image: -webkit-linear-gradient(top,#fe953e,#d9772d);
-	background-image: -moz-linear-gradient(top,#fe953e,#d9772d);
-	background-image: -ms-linear-gradient(top,#fe953e,#d9772d);
-	background-image: -o-linear-gradient(top,#fe953e,#d9772d);
-	background-image: linear-gradient(top,#fe953e,#d9772d); 
 }
 .green.button{
-	border:1px solid #136e0f; 
-	background:#25A322;
-	background-image: -webkit-gradient(linear,left top,left bottom,from(#4BB64B),to(#25A322));
-	background-image: -webkit-linear-gradient(top,#4BB64B,#25A322);
-	background-image: -moz-linear-gradient(top,#4BB64B,#25A322);
-	background-image: -ms-linear-gradient(top,#4BB64B,#25A322);
-	background-image: -o-linear-gradient(top,#4BB64B,#25A322);
-	background-image: linear-gradient(top,#4BB64B,#25A322); 
+	border:1px solid #136e0f;
+	background:#73cf00;
 }
 :hover.green.button{
 	background:#1c9217;
-	background-image: -webkit-gradient(linear,left top,left bottom,from(#4BB64B),to(#1c9217));
-	background-image: -webkit-linear-gradient(top,#4BB64B,#1c9217);
-	background-image: -moz-linear-gradient(top,#4BB64B,#1c9217);
-	background-image: -ms-linear-gradient(top,#4BB64B,#1c9217);
-	background-image: -o-linear-gradient(top,#4BB64B,#1c9217);
-	background-image: linear-gradient(top,#4BB64B,#1c9217);
 }
 .blue {
 	background: #0073cf;
-	background-image: linear-gradient(left top, #279CF5 0%, #0072CF 70%);
-	background-image: -o-linear-gradient(left top, #279CF5 0%, #0072CF 70%);
-	background-image: -moz-linear-gradient(left top, #279CF5 0%, #0072CF 70%);
-	background-image: -webkit-linear-gradient(left top, #279CF5 0%, #0072CF 70%);
-	background-image: -ms-linear-gradient(left top, #279CF5 0%, #0072CF 70%);
-	background-image: -webkit-gradient(linear, left top, right bottom, color-stop(0, #279CF5), color-stop(0.7, #0072CF));
 }
 .darkblue {
-	background:#004987;
+	background:#00233f;
 
 }
 .darkestblue {
-	background: #011c33;
-	background-image: linear-gradient(left top, #0B2F4D 0%, #011C33 70%);
-	background-image: -o-linear-gradient(left top, #0B2F4D 0%, #011C33 70%);
-	background-image: -moz-linear-gradient(left top, #0B2F4D 0%, #011C33 70%);
-	background-image: -webkit-linear-gradient(left top, #0B2F4D 0%, #011C33 70%);
-	background-image: -ms-linear-gradient(left top, #0B2F4D 0%, #011C33 70%);
-
-	background-image: -webkit-gradient(
-		linear,
-		left top,
-		right bottom,
-		color-stop(0, #0B2F4D),
-		color-stop(0.7, #011C33)
-	);
+	background: #000c15;
 }
 .green {
 	background: #00b588;
-	background-image: linear-gradient(left top, #22D4A8 0%, #00B588 70%);
-	background-image: -o-linear-gradient(left top, #22D4A8 0%, #00B588 70%);
-	background-image: -moz-linear-gradient(left top, #22D4A8 0%, #00B588 70%);
-	background-image: -webkit-linear-gradient(left top, #22D4A8 0%, #00B588 70%);
-	background-image: -ms-linear-gradient(left top, #22D4A8 0%, #00B588 70%);
-	background-image: -webkit-gradient(linear,left top,right bottom,color-stop(0, #22D4A8),color-stop(0.7, #00B588));
 }
 .brightgreen {
-	background:#25a322;
-	background-image: linear-gradient(left top, #2cCc29 1%, #24A322 70%);
-	background-image: -o-linear-gradient(left top, #2cCc29 1%, #24A322 70%);
-	background-image: -moz-linear-gradient(left top, #2cCc29 1%, #24A322 70%);
-	background-image: -webkit-linear-gradient(left top, #2cCc29 1%, #24A322 70%);
-	background-image: -ms-linear-gradient(left top, #2cCc29 1%, #24A322 70%);
-
-	background-image: -webkit-gradient(
-		linear,
-		left top,
-		right bottom,
-		color-stop(0.01, #2cCc29),
-		color-stop(0.7, #24A322)
-	);
+	background:#73cf00;
 }
 .orange {
-	background: #e98505;
-	background-image: linear-gradient(left top, #FFA12E 0%, #E98605 70%);
-	background-image: -o-linear-gradient(left top, #FFA12E 0%, #E98605 70%);
-	background-image: -moz-linear-gradient(left top, #FFA12E 0%, #E98605 70%);
-	background-image: -webkit-linear-gradient(left top, #FFA12E 0%, #E98605 70%);
-	background-image: -ms-linear-gradient(left top, #FFA12E 0%, #E98605 70%);
-	background-image: -webkit-gradient(linear,left top,right bottom,color-stop(0, #FFA12E),color-stop(0.7, #E98605));
+	background: #cf5c00;
 }
 .purple {
 	background:#a612d1;
-	background: -moz-linear-gradient(top,  #a612d1 0%, #a411c1 100%);
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#a612d1), color-stop(100%,#a411c1));
-	background: -webkit-linear-gradient(top,  #a612d1 0%,#a411c1 100%);
-	background: -o-linear-gradient(top,  #a612d1 0%,#a411c1 100%);
-	background: -ms-linear-gradient(top,  #a612d1 0%,#a411c1 100%);
-	background: linear-gradient(to bottom,  #a612d1 0%,#a411c1 100%);
+}
+.pink {
+	background:#cf0073;
 }
 /* ==================================================================
 *
@@ -472,7 +420,7 @@ p {
 	height:640px;
 }
 .footer {
-	background: #004987;
+	background: #00233f;
 	height: 50px;
 	bottom: -50px;
 	position: relative;

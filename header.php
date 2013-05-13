@@ -67,6 +67,7 @@
 	<link rel="shortcut icon" href="<?php bloginfo('template_directory'); ?>/images/favicon.ico">	
 	<link rel="apple-touch-icon" href="<?php bloginfo('template_directory'); ?>/images/apple-touch-icon.png">
 	<link href='http://fonts.googleapis.com/css?family=Arvo:400,700,400italic' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Habibi' rel='stylesheet' type='text/css'>
 
   <!-- CSS concatenated and minified via ant build script-->
 	<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/style.css">

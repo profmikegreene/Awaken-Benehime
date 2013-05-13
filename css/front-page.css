@@ -48,6 +48,7 @@
 	font-weight:100;
 	line-height:1em;
 	color:#fff;
+	font-family: 'arvo', "wf_SegoeUILight","wf_SegoeUI", "Segoe UI", "helvetica neue";
 	}
 .cube p {font-size: 1em;}
 .cube ul {
@@ -103,18 +104,17 @@
 .whyRCC .grid-6 {
 	height:132px;
 }
- .cube .futureCta, 
- .cube .currentCta, 
+ .cube .futureCta,
+ .cube .currentCta,
  .cube .currentCta2 {
-	font-family:'Arvo', Helvietica Neue, Arial, sans-serif;
-	text-align: center;
-	font-weight: 700;
+	x-font-family:'Arvo', Helvietica Neue, Arial, sans-serif;
+	x-text-align: center;
 	margin:0;
-	text-shadow: 2px 2px 1px #0073cf, 3px 3px 0 #fff;
+	x-text-shadow: 2px 2px 1px #0073cf, 3px 3px 0 #fff;
 	cursor: pointer;
 	/*background: #005ca6;*/
 	background: #0073cf;
-	height:130px;
+	height:100%;
 	line-height: 1.2em;
 	border: 1px solid #005ca6; /*#00569b*/
 }
@@ -125,9 +125,9 @@
 
 }
 .futureCta:hover, .currentCta:hover {
-	 text-shadow: 2px 2px 1px #00b588, 3px 3px 0px #fff;
-	 background:#00569b;
-		border-color: #005090;
+	x-text-shadow: 2px 2px 1px #00b588, 3px 3px 0px #fff;
+	background:#00569b;
+	border-color: #005090;
 }
 .whyRCC img {
 	cursor: default;
@@ -231,7 +231,7 @@
 }
 .fRapp p {
 	position:absolute;
-	background:#000;
+	background:#000c15;
 	background:rgba(0, 0, 0, 0.5);
 	margin:0;
 	bottom:0;

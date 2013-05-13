@@ -157,7 +157,7 @@ z-index: 9;
   padding: 5px;
 }
 .pageSidebar .promo {
-  background:#e98505;
+  background:#cf5c00;
   color:#fff;
 }
 .pageSidebar .promo a {
@@ -205,7 +205,7 @@ z-index: 9;
   background:#f9f9f9;
   color:#0073cf;
   text-decoration: none;
-  border-color:#68ade7;
+  border-color:#a6c9e5;
 }
 .pageSidebar .promo a:hover {
   border-bottom:1px dashed #fff;

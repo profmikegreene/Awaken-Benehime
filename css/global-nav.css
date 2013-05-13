@@ -20,12 +20,12 @@
 .megaDropButton {
 	width:40px;
 	height:40px;
-	background: #004987 url(/wp-content/themes/AwakenBenehimeV10/images/dropdownIcon.png);
+	background: #00233f url(/wp-content/themes/AwakenBenehimeV10/images/dropdownIcon.png);
 	position: absolute;
 	bottom: -41px;
 	right: 5px;
 	z-index: 10;
-	border:1px solid #004987;
+	border:1px solid #00233f;
 	border-top:none;
 	cursor: pointer;
 	display: none;
@@ -110,7 +110,7 @@ font-size: .75em;
 	background: #fff;
 	color:#333;
 	padding:5px;
-	border: 5px solid #F28B37;
+	border: 5px solid #cf5c00;
 	top:25px;
 	left: 64px;
 	display: none;
@@ -130,7 +130,7 @@ font-size: .75em;
 }
 .quickLinks .moreLinksDropdown a:hover {
 	text-decoration: none;
-	background: #F28B37;
+	background: #cf5c00;
 	color:#fff;
 
 }
@@ -210,29 +210,29 @@ font-size: .75em;
 .workforceNav {
 
 }
-.peopleNav a.topLevel:hover, .peopleNav a.active {background:#011c33}
-.aboutNav a.topLevel:hover, .aboutNav a.active {background:#25a322}
+.peopleNav a.topLevel:hover, .peopleNav a.active {background:#000c15}
+.aboutNav a.topLevel:hover, .aboutNav a.active {background:#73cf00}
 .academicsNav a.topLevel:hover, .academicsNav a.active {background:#0073cf}
-.admissionsNav a.topLevel:hover, .admissionsNav a.active {background:#d10073}
+.admissionsNav a.topLevel:hover, .admissionsNav a.active {background:#cf0073}
 .departmentsNav a.topLevel:hover, .departmentsNav a.active {background:#00b588}
 .libraryNav a.topLevel:hover, .libraryNav a.active{background:#a612d1}
-.workforceNav a.topLevel:hover, .workforceNav a.active {background:#e98505}
+.workforceNav a.topLevel:hover, .workforceNav a.active {background:#cf5c00}
 
-.peopleNav .dropDown {border-color:#011c33;}
-.aboutNav .dropDown {border-color: #25a322;}
+.peopleNav .dropDown {border-color:#000c15;}
+.aboutNav .dropDown {border-color: #73cf00;}
 .academicsNav .dropDown {border-color: #0073cf;}
-.admissionsNav .dropDown {border-color: #d10073;}
+.admissionsNav .dropDown {border-color: #cf0073;}
 .departmentsNav .dropDown {border-color: #00b588;}
 .libraryNav .dropDown {border-color: #a612d1;}
-.workforceNav .dropDown {border-color: #e98505;}
+.workforceNav .dropDown {border-color: #cf5c00;}
 
-.peopleNav .dropDown a:hover {background:#011c33;}
-.aboutNav .dropDown a:hover {background:#25a322}
+.peopleNav .dropDown a:hover {background:#000c15;}
+.aboutNav .dropDown a:hover {background:#73cf00}
 .academicsNav .dropDown a:hover {background:#0073cf;}
-.admissionsNav .dropDown a:hover {background:#d10073;}
+.admissionsNav .dropDown a:hover {background:#cf0073;}
 .departmentsNav .dropDown a:hover {background:#00b588;}
 .libraryNav .dropDown a:hover {background:#a612d1;}
-.workforceNav .dropDown a:hover {background:#e98505;}
+.workforceNav .dropDown a:hover {background:#cf5c00;}
 
 .navElement {
 	width:auto; 

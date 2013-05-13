@@ -67,7 +67,8 @@
 	z-index:9;
 }
 .nivo-caption h1 {
-		font-family:"Segoe UI Light","helvetica neue", Helvetica, Arial, sans-serif;
+		font-family: 'Habibi', "Segoe UI", "helvetica neue", Helvetica, Arial, sans-serif;
+		font-weight: 300;
 }
 .nivo-caption p {
 	padding:5px;

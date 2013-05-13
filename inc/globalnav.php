@@ -20,8 +20,8 @@
             </form>
         </div>
       </li>
-      <li><a class="green button" href="/schedule" title="RCC Online Schedule">Classes</a></li> 
-      <li><a class="orange button" id="moreLinks" href="#">more<span class="dropdownArrow">&#9660;</span></a>
+      <li><a class="pink button" href="/schedule" title="RCC Online Schedule">Classes</a></li> 
+      <li><a class="green button" id="moreLinks" href="#">more<span class="dropdownArrow">&#9660;</span></a>
       <div id="moreLinksDropdown" class="moreLinksDropdown">
         <ul>
           <li><a  href="/safety" title="Campus Safety">Campus Safety</a></li> 
@@ -38,7 +38,7 @@
     <h3 id="responsiveMenu">Menu<span class="dropdownArrow">&#9660;</span></h3>
     <div id="responsiveDropdownMenu" class="responsiveDropdownMenu">
     <ul id="navBar" class="navBar"> 
-    	<li class="navElement peopleNav"><a id="peopleNav" href="#" title="People" class="topLevel">People /</a>
+    	<li class="navElement peopleNav"><a id="peopleNav" href="#" title="People" class="topLevel">People |</a>
       <div class="dropDown" id="peopleNavDropdown">
       	<ul>
           <li><a href="/future" title="Future Students">Future Students</a></li> 
@@ -49,7 +49,7 @@
           <li><a href="/employees" title="Faculty and Staff">Faculty &amp; Staff</a></li>
         </ul>
       </div> 
-      <li class="navElement aboutNav"><a id="aboutNav" href="#" title="About" class="topLevel">About /</a>
+      <li class="navElement aboutNav"><a id="aboutNav" href="#" title="About" class="topLevel">About |</a>
       <div class="dropDown" id="aboutNavDropdown"> 
         <ul> 
           <li><a href="/catalog/about/who-we-are/">About RCC</a></li>	  					
@@ -90,7 +90,7 @@
           </ul> 
       </div><!--end aboutNav--> 
       </li>    
-      <li class="navElement academicsNav"><a id="academicsNav" href="#" title="Academics" class="topLevel">Academics /</a> 
+      <li class="navElement academicsNav"><a id="academicsNav" href="#" title="Academics" class="topLevel">Academics |</a> 
       <div class="dropDown" id="academicsNavDropdown"> 
         <ul > 
           <li><a href="/academics/academic-advising">Academic Advising</a></li> 
@@ -119,7 +119,7 @@
           </ul> 
         </div><!--end academicsNav--> 
       </li>        
-      <li class="navElement admissionsNav"><a id="admissionsNav" href="#" title="Admissions" class="topLevel">Admissions /</a> 
+      <li class="navElement admissionsNav"><a id="admissionsNav" href="#" title="Admissions" class="topLevel">Admissions |</a> 
         <div class="dropDown" id="admissionsNavDropdown"> 
           <ul > 
             <li><a href="/admissions/apply-for-admission/">Apply</a></li> 
@@ -148,7 +148,7 @@
             </ul>    
       </div> <!--end admissionsNav--> 
       </li>       
-      <li class="navElement departmentsNav"><a id="departmentsNav" href="#" title="Departments" class="topLevel">Departments /</a> 
+      <li class="navElement departmentsNav"><a id="departmentsNav" href="#" title="Departments" class="topLevel">Departments |</a> 
       <div class="dropDown" id="departmentsNavDropdown"> 
         <ul > 
           <li><a href="/academics">Academics</a></li> 
@@ -182,7 +182,7 @@
              </ul> 
       </div><!--end departmentsNav--> 
       </li>        
-      <li class="navElement libraryNav"><a id="libraryNav" href="#" title="Library" class="topLevel">Library /</a> 
+      <li class="navElement libraryNav"><a id="libraryNav" href="#" title="Library" class="topLevel">Library |</a> 
       <div class="dropDown" id="libraryNavDropdown"> 
         <ul > 
           <li><a href="/library">College Library</a></li> 
@@ -191,7 +191,7 @@
           </ul> 
       </div><!--end libraryNav--> 
       </li>        
-      <li class="navElement workforceNav"><a id="workforceNav" href="#" title="Workforce" class="topLevel">Workforce /</a>
+      <li class="navElement workforceNav"><a id="workforceNav" href="#" title="Workforce" class="topLevel">Workforce</a>
       <div class="dropDown" id="workforceNavDropdown"> 
         <ul> 
           <li><a href="/workforce/adult-educationged">Adult Education/GED</a></li> 
